@@ -1,0 +1,9 @@
+POST http://localhost:8000/items/
+Content-Type: application/json
+@test_payload.json
+
+GET http://localhost:8000/
+
+POST http://localhost:8000/items/
+Content-Type: application/json
+@payloads/test_payload1.json
